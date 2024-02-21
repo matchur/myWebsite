@@ -1,0 +1,13 @@
+{
+  "name": "myWebsite",
+  "version": "0.0.1",
+  "description": "Website contains portfolio and features",
+  "main": "src/pages/index.js",
+  "repository": "https://github.com/matchur/myWebsite.git",
+  "author": "morpheus6556 <ma.usv@hotmail.com>",
+  "license": "MIT",
+  "private": true,
+    "scripts": {
+    "start": "node src/pages/index.js"
+  }
+}
