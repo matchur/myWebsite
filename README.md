@@ -4,7 +4,7 @@ Bem vindo ao projeto do meu portfólio! Se você está aqui para estudar ou para
 
 ## Sobre o Projeto
 
-Este projeto, chamado `myWebsite`, é o coração do meu portfólio online. Aqui, compartilho meus projetos, habilidades e experiências para que você possa conhecê-los melhor.
+Este projeto, `myWebsite`, é o código do meu portfólio online. Nele compartilho meus projetos, habilidades e experiências para que você possa conhecê-los melhor.
 
 ## Como Usar 💻
 
