@@ -1,4 +1,4 @@
-##Olá! 👋
+## Olá! 👋
 
 Bem vindo ao projeto do meu portfólio! Se você está aqui para estudar ou para implementar alguma ideia no seu próprio projeto, fique à vontade para explorar. Afinal, o conhecimento é para todos.
 
