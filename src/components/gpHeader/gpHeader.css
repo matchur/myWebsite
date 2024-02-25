@@ -1,0 +1,13 @@
+.Group-header{
+    width: 95%;
+    height: 100px; 
+    background-color: #426b65; 
+    border: 2px solid #385a55; 
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1%;
+    padding-right:1% ;
+  }
