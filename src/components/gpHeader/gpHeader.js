@@ -4,12 +4,14 @@ import BtHeader from '../btHeader/btHeader';
 
 function GpHeader() 
 {
+  var inicioImg = ""
+
   return (
     <div class="Group-header">
-      <BtHeader textIn='Inicio' img="../../images/test.jpg"/>
-      <BtHeader textIn='Conhecimento' img="../../images/test.jpg"/>
-      <BtHeader textIn='Projetos' img="../../images/test.jpg"/>
-      <BtHeader textIn='Contato' img="../../images/test.jpg"/>
+      <BtHeader textIn='Inicio' img="./test.jpg"/>
+      <BtHeader textIn='Conhecimento' img="./test.jpg"/>
+      <BtHeader textIn='Projetos' img="./test.jpg"/>
+      <BtHeader textIn='Contato' img="./test.jpg"/>
     </div>
   );
 }
