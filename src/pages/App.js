@@ -7,7 +7,7 @@ function App()
   return (
     <div className= "App-backGround">
       <header className="App-header">
-            <GpHeader />
+            <GpHeader />            
             <GpAboutMe />
       </header>
    

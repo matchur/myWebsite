@@ -1,5 +1,7 @@
 import React, { useEffect, useRef } from 'react';
+import './btThree.css';
 import * as THREE from 'three';
+
 import { TextGeometry } from 'three/addons/geometries/TextGeometry.js';
 import { FontLoader } from 'three/addons/loaders/FontLoader.js';
 
@@ -8,6 +10,7 @@ const BtThree = (params) => {
 
   useEffect(() => {
     let container, renderer, scene, camera, particles, textMesh, textMaterial;
+
 
     try {
       container = containerRef.current;
@@ -41,7 +44,7 @@ const BtThree = (params) => {
       // Text
       const fontLoader = new FontLoader();
       fontLoader.load('./fonts/bladRunner.json', function (font) {
-        const textGeometry = new TextGeometry(params.setText, {
+        const textGeometry = new TextGeometry(""+params.setText, {
           font: font,
           size: params.sizeFont,
           height: 0.1,
