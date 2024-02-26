@@ -1,11 +1,11 @@
 import React from 'react';
 import './gpHeader.css';
-import BtHeader from '../btHeader/btHeader';
+
 import BtThree from '../btThree/btThree';
 
 function GpHeader() 
 {
-  var inicioImg = ""
+ 
 
   return (
     <div class="Group-header">
