@@ -1,6 +1,7 @@
 import React from 'react';
 import './gpHeader.css';
 import BtHeader from '../btHeader/btHeader';
+import BtThree from '../btThree/btThree';
 
 function GpHeader() 
 {
@@ -8,10 +9,10 @@ function GpHeader()
 
   return (
     <div class="Group-header">
-      <BtHeader textIn='Inicio' img="./test.jpg"/>
-      <BtHeader textIn='Conhecimento' img="./test.jpg"/>
-      <BtHeader textIn='Projetos' img="./test.jpg"/>
-      <BtHeader textIn='Contato' img="./test.jpg"/>
+      <BtThree setText="Projetos"sizeFont="7"/>
+      <BtThree setText="Contato"sizeFont="7"/>
+      <BtThree setText="Contato"sizeFont="7"/>
+      <BtThree setText="Contato"sizeFont="7"/>
     </div>
   );
 }
