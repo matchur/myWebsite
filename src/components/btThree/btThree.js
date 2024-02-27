@@ -1,16 +1,16 @@
-import { TextGeometry } from 'three/addons/geometries/TextGeometry.js';
-import { PointLight } from 'three';
-import { FontLoader } from 'three/addons/loaders/FontLoader.js';
 import React, { useEffect, useRef } from 'react';
+import './btThree.css';
 import * as THREE from 'three';
+
+import { TextGeometry } from 'three/addons/geometries/TextGeometry.js';
+import { FontLoader } from 'three/addons/loaders/FontLoader.js';
 
 const BtThree = (params) => {
   const containerRef = useRef(null);
 
   useEffect(() => {
     let container, renderer, scene, camera, particles, textMesh, textMaterial;
-    let pointLight;
-    let enterFlag = false;
+
 
     try {
       container = containerRef.current;
@@ -34,17 +34,13 @@ const BtThree = (params) => {
         particles.add(particle);
       }
 
-      
-
       const pointLight = new THREE.PointLight( 0xffffff, 4.5, 0, 0 );
       pointLight.color.setHSL(49, 37, 57);
-     
       pointLight.position.set( 0, 100, 90 );
       scene.add( pointLight );
 
       scene.add(particles);
 
-      console.log("SizeFont:",params);
       // Text
       const fontLoader = new FontLoader();
       fontLoader.load('./fonts/bladRunner.json', function (font) {
@@ -63,7 +59,6 @@ const BtThree = (params) => {
         textGeometry.computeBoundingBox();
         const textWidth = textGeometry.boundingBox.max.x - textGeometry.boundingBox.min.x;
 
-        
         const textPosX = -textWidth / 2;
         const textPosY = 0; 
         const textPosZ = -10; 
@@ -85,13 +80,11 @@ const BtThree = (params) => {
         particles.position.copy(pos);
       };
 
-
       const handleClick = () => {
         pointLight.color.setHSL( Math.random(), 1, 0.4 );
       };
 
       container.addEventListener('mousemove', handleMouseMove);
-
       container.addEventListener('click', handleClick);
 
       const animate = () => {
@@ -111,7 +104,7 @@ const BtThree = (params) => {
     } catch (ex) {
       console.log("erro Ex: " + ex);
     }
-  }, []);
+  }, [params]);
 
   return <div ref={containerRef} className='Button-header' />;
 };
