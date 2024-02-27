@@ -1,18 +1,16 @@
 import React from 'react';
 import './gpHeader.css';
-
-import BtThree from '../btThree/btThree';
+import BtHeader from '../btHeader/btHeader'
 
 function GpHeader() 
 {
- 
 
   return (
     <div class="Group-header">
-      <BtThree setText="Sobre Mim"sizeFont="7"/>
-      <BtThree setText="Habilidades"sizeFont="7"/>
-      <BtThree setText="Projetos"sizeFont="7"/>
-      <BtThree setText="Contato"sizeFont="7"/>
+      <BtHeader textIn="Sobre Mim"/>
+      <BtHeader textIn="Habilidades"/>
+      <BtHeader textIn="Projetos"/>
+      <BtHeader textIn="Contato"/>
     </div>
   );
 }

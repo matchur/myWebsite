@@ -1,23 +1,39 @@
-.Button-header {
-    width: calc(25% - 40px); 
-    height: 75%; 
-    background-color: #baab6a; 
-    border: 2px solid #9a8e59; 
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-right: 5px; 
-    
-
-  }
+button.neumorphic {
+  container-type: inline-size;
+  aspect-ratio: 1/1;
+  border: 2px solid #9a8e59; /* Cor do contorno */
+  border-radius: 40px; /* Arredondamento das bordas */
+  color: #baab6a; /* Cor do texto */
+  background: none; /* Cor de fundo */
+  display: grid;
+  height: 80px;
+  width: 300px;
+  place-content: center;
+  gap: 1rem;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3); /* Sombra */
+  outline: none;  
+  transition: all 0.1s;
   
-   .Button-header img {
-    font-size: 18px;
+  &:hover, &:focus-visible {
+    transform: scale(1.1); /* Efeito de escala ao passar o mouse */
   }
-   
-  .Button-header span {
-    font-size: 14px; /* Tamanho do texto */
+  &:active, &.active{
+    box-shadow:
+      10px 10px 20px rgba(0, 0, 0, 0.3), /* Sombra */
+      inset 5px 5px 10px rgba(0, 0, 0, 0.5), /* Sombra interna */
+      inset -5px -5px 10px rgba(255, 255, 255, 0.75); /* Sombra interna */
+    color: hsl(10 80% 50%); /* Cor do texto */
   }
+  > span {
+    color: #fbea80;
+    font-size: 35px; /* Tamanho do texto */
+    font-family: system-ui, sans-serif; /* Fonte do texto */
+  }
+}
+
+.buttons {
+  display: grid;
+  width: min(75rem, 100%);
+  margin-inline: auto;
+  grid-template-columns: repeat(auto-fit, minmax(min(25%, 100%), 1fr)); /* Colunas responsivas */
+}
