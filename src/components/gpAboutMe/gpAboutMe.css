@@ -5,9 +5,89 @@
 
 #container figcaption {
   position: absolute;
-  top: 650px;
-  right: 5%;
-  font-size: 60px;
+  bottom: 7%; /* Alinha o texto 10% a partir da parte inferior do contêiner pai */
+  left: 50%; /* Alinha o texto no centro horizontal do contêiner pai */
+  transform: translateX(-50%); /* Move o texto de volta pela metade da largura do próprio texto */
+  font-size: 3vw; /* Usa uma unidade de largura de viewport para o tamanho da fonte */
   color: black;
   text-shadow: 0px 0px 5px black;
+  white-space: nowrap; /* Impede a quebra de texto em várias linhas */
+} 
+.Pin-aboutme
+{
+  position: relative;
+  bottom: 45px;
+  right: 30px;
+  width: 100px;
+  margin-bottom: -100px;
+}
+
+.Group-Title
+{
+  justify-content: center;
+  display: grid;
+}
+
+.Group-aboutme {
+  width: 30%; 
+  height: 500px; 
+
+  background-color: #fbea80; 
+  border: 2px solid #9a8e59; 
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding-left: 1%;
+  padding-right: 1%;
+  border-radius: 10px;
+}
+
+.Title-aboutme{
+  font-size: 55px; 
+  font-weight: bold;
+}
+.Subtitle-aboutme{
+  font-size: 15px; 
+  font-weight: bold;
+  position: relative;
+  left: 190px;
+  bottom: 10px;
+}
+
+.Text-aboutme{
+  font-size: 18px; 
+ 
+}
+
+.Group-principal {
+  width: 94%; 
+  height: 800px; 
+  padding-top: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Group-content {
+  display: flex;
+  align-items: center;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 200px; /* Defina o tamanho da imagem conforme necessário */
+}
+
+.text-container {
+  margin-left: 20px; /* Ajuste conforme necessário */
+}
+
+.text-container p {
+  font-size: 18px; /* Defina o tamanho da fonte conforme necessário */
+  font-weight: bold;
 }
