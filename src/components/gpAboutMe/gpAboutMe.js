@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import TypeIt from "typeit";
+import React, { useEffect} from 'react';
+
 import './gpAboutMe.css';
 import Typewriter from 'typewriter-effect/dist/core';
 
@@ -29,16 +29,14 @@ function GpAboutMe() {
           <div className='Group-aboutme'>
             <img className='Pin-aboutme'  alt="Componente Visual" src="./imgs/pinAboutMe.png"></img>
             <div className='Group-Title'>   
-              <a className='Title-aboutme'>Sobre Mim</a>         
-              <a className='Subtitle-aboutme'>Matheus Vinicius Costa</a>   
+              <div className='Title-aboutme'>Sobre Mim</div>         
+              <div className='Subtitle-aboutme'>Matheus Vinicius Costa</div>   
             </div>
-   
-              <a className='Text-aboutme'> Olá, me chamo <b>Matheus Costa</b>, sou desenvolvedor de softwares e um grande entusiasta 
-              da Ciência da Computação, sempre dedicado a melhorar minhas habilidades e desenvolver aplicativos e idéias inteligentes.</a>
-              <a className='Text-aboutme'> Aqui no meu site, você vai encontrar algumas coisas interessantes <i>sobre mim </i> 
+              <div className='Text-aboutme1'> Olá, me chamo <b>Matheus Costa</b>, sou desenvolvedor de software e um grande entusiasta 
+              da Ciência da Computação, sempre dedicado a melhorar minhas habilidades e desenvolver aplicativos e idéias inteligentes.</div>
+              <div className='Text-aboutme2'> Aqui no meu site, você vai encontrar algumas coisas interessantes <i>sobre mim </i> 
               então fique a vontade para explorar, talvez eu tenha deixado alguns <b>Easter Eggs</b> por aí...
-              </a>
-              <a className='Text-aboutme'></a>
+              </div>
           </div>
         </div>
       </div>  
