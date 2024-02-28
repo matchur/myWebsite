@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/myWebsite/static/css/main.69d85068.css",
-    "main.js": "/myWebsite/static/js/main.9c30cb77.js",
+    "main.css": "/myWebsite/static/css/main.c7b992e3.css",
+    "main.js": "/myWebsite/static/js/main.d8460bca.js",
     "static/js/453.f69bbbff.chunk.js": "/myWebsite/static/js/453.f69bbbff.chunk.js",
     "static/media/nasaSpaceApps.jpg": "/myWebsite/static/media/nasaSpaceApps.05f5af793b7f7d957199.jpg",
     "static/media/carrinhoSL.jpg": "/myWebsite/static/media/carrinhoSL.5d0f985a9b30d3ff43bd.jpg",
@@ -11,12 +11,12 @@
     "static/media/postgreLogo.png": "/myWebsite/static/media/postgreLogo.155da835c78eb125c678.png",
     "static/media/dockerLogo.png": "/myWebsite/static/media/dockerLogo.498c1fd6d1847640d202.png",
     "index.html": "/myWebsite/index.html",
-    "main.69d85068.css.map": "/myWebsite/static/css/main.69d85068.css.map",
-    "main.9c30cb77.js.map": "/myWebsite/static/js/main.9c30cb77.js.map",
+    "main.c7b992e3.css.map": "/myWebsite/static/css/main.c7b992e3.css.map",
+    "main.d8460bca.js.map": "/myWebsite/static/js/main.d8460bca.js.map",
     "453.f69bbbff.chunk.js.map": "/myWebsite/static/js/453.f69bbbff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.69d85068.css",
-    "static/js/main.9c30cb77.js"
+    "static/css/main.c7b992e3.css",
+    "static/js/main.d8460bca.js"
   ]
 }
