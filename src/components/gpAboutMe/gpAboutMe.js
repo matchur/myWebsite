@@ -23,7 +23,7 @@ function GpAboutMe() {
       <div className="Group-content">
         <div className="image-container">
           <figure id="container">
-            <img alt="demonstrative img" src="./imgs/logo1.png" />  
+            <img className="ImgLogo1" alt="demonstrative img" src="./imgs/logo1.png" />  
             <figcaption id='element'></figcaption>
           </figure>
           <div className='Group-aboutme'>

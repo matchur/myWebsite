@@ -1,0 +1,46 @@
+.Group-badges
+{
+    display: flex;
+    flex-direction: column; 
+    background-color: #fbea80;
+    border: 2px solid #9a8e59;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center ;
+    margin-bottom: 10px;
+}
+.Group-badgescontent
+{
+    margin-top: -33px;
+    gap: 8px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.Group-habilities
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fdfac7;
+    border: 6px solid #b7b590;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+.Title-badges
+{
+    margin-top: 15px;
+}
+.Title-principal
+{
+    font-size: 50px;
+    margin-top: 15px;
+}
+.Display-flex{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;  
+}
