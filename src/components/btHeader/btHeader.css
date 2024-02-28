@@ -6,8 +6,8 @@ button.neumorphic {
   color: #baab6a; /* Cor do texto */
   background: none; /* Cor de fundo */
   display: grid;
-  height: 80px;
-  width: 300px;
+  height: 30px;
+  width: 150px;
   place-content: center;
   gap: 1rem;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3); /* Sombra */
@@ -26,7 +26,7 @@ button.neumorphic {
   }
   > span {
     color: #fbea80;
-    font-size: 35px; /* Tamanho do texto */
+    font-size: 15px; /* Tamanho do texto */
     font-family: system-ui, sans-serif; /* Fonte do texto */
   }
 }

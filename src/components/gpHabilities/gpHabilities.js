@@ -8,7 +8,7 @@ const GpHabilities = () => {
 
   return (
       <div className='Group-habilities'>
-      <CpDevText title="Habilidades"/>
+      <CpDevText title="Eu sou"/>
       <div id="linguagens_e_ferramentas"> 
             <div className="Group-badges" id="sistemas_operacionais">
             <h4 className='Title-badges' >Sistemas Operacionais:</h4>

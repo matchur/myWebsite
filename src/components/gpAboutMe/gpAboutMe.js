@@ -33,9 +33,9 @@ function GpAboutMe() {
                 <div className='Title-aboutme'>Sobre Mim</div>         
                 <div className='Subtitle-aboutme'>Matheus Vinicius Costa</div>   
               </div>
-                <div className='Text-aboutme1'> Olá, me chamo <b>Matheus Costa</b>, sou desenvolvedor Full Stack e um grande entusiasta 
+                <div className='Text-aboutme1'> Olá, me chamo <b>Matheus V. Costa</b>, sou desenvolvedor Full Stack e um grande entusiasta 
                 da Ciência da Computação, sempre dedicado a melhorar minhas habilidades e desenvolver idéias inteligentes.</div>
-                <div className='Text-aboutme2'> Aqui no meu site, você vai encontrar algumas coisas interessantes <i>sobre mim </i> 
+                <div className='Text-aboutme2'> Aqui, você vai encontrar algumas coisas interessantes <i>sobre mim </i> 
                 então fique a vontade para explorar.
                 </div>
                 <PhotoViewer /> 

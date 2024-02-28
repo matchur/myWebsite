@@ -1,16 +1,34 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './gpHeader.css';
-import BtHeader from '../btHeader/btHeader'
+import BtHeader from '../btHeader/btHeader';
 
-function GpHeader() 
-{
+function GpHeader() {
+  const [isVisible, setIsVisible] = useState(false);
+
+  const handleScroll = () => {
+    if (window.scrollY > 130) {
+      setIsVisible(true);
+    } else {
+      setIsVisible(false);
+    }
+  };
+
+  useEffect(() => {
+    console.log(window.scrollY);
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [isVisible]);
 
   return (
-    <div class="Group-header">
-      <BtHeader textIn="Sobre Mim"/>
-      <BtHeader textIn="Habilidades"/>
-      <BtHeader textIn="Projetos"/>
-      <BtHeader textIn="Contato"/>
+    <div className={`Group-header ${isVisible ? 'visible' : 'hidden'}`}>
+      <div className='display-flex'>
+        <BtHeader textIn="Sobre Mim" viewY= "0"/>
+        <BtHeader textIn="Habilidades" viewY= "940"/>
+        <BtHeader textIn="Projetos" viewY= "0"/>
+        <BtHeader textIn="Contato" viewY= "0"/>
+      </div>
     </div>
   );
 }

@@ -1,12 +1,18 @@
 import React from 'react';
 import './btHeader.css';
 
-const BtHeader = ({textIn}) => {
-    
+const BtHeader = (params) => {
+  
+  const handleClick = () => {
+    window.scrollTo({
+      top: params.viewY,
+      behavior: 'smooth', // Adiciona um comportamento de rolagem suave
+    });
+  };
 
   return (
-      <button class="neumorphic">
-              <span><b>{textIn}</b></span>
+      <button class="neumorphic" onClick={handleClick}>
+              <span><b>{params.textIn}</b></span>
       </button>
   );
 }
