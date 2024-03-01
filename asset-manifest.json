@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/myWebsite/static/css/main.2857952b.css",
-    "main.js": "/myWebsite/static/js/main.d65bb3cf.js",
+    "main.css": "/myWebsite/static/css/main.d14fb071.css",
+    "main.js": "/myWebsite/static/js/main.b3d92f36.js",
     "static/js/453.f69bbbff.chunk.js": "/myWebsite/static/js/453.f69bbbff.chunk.js",
     "static/media/nasaSpaceApps.jpg": "/myWebsite/static/media/nasaSpaceApps.05f5af793b7f7d957199.jpg",
     "static/media/carrinhoSL.jpg": "/myWebsite/static/media/carrinhoSL.5d0f985a9b30d3ff43bd.jpg",
     "static/media/personal1.png": "/myWebsite/static/media/personal1.da0a9bcd051bf7e6dcdc.png",
     "static/media/2024Att.png": "/myWebsite/static/media/2024Att.e2fc210b0bf19d498c64.png",
+    "static/media/95wallpaper.jpg": "/myWebsite/static/media/95wallpaper.999f07f0a7d05cc1eb23.jpg",
     "static/media/javaLogo.jpg": "/myWebsite/static/media/javaLogo.bc7a3325b6ee01ddcab8.jpg",
     "static/media/postgreLogo.png": "/myWebsite/static/media/postgreLogo.155da835c78eb125c678.png",
     "static/media/dockerLogo.png": "/myWebsite/static/media/dockerLogo.498c1fd6d1847640d202.png",
     "index.html": "/myWebsite/index.html",
-    "main.2857952b.css.map": "/myWebsite/static/css/main.2857952b.css.map",
-    "main.d65bb3cf.js.map": "/myWebsite/static/js/main.d65bb3cf.js.map",
+    "main.d14fb071.css.map": "/myWebsite/static/css/main.d14fb071.css.map",
+    "main.b3d92f36.js.map": "/myWebsite/static/js/main.b3d92f36.js.map",
     "453.f69bbbff.chunk.js.map": "/myWebsite/static/js/453.f69bbbff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2857952b.css",
-    "static/js/main.d65bb3cf.js"
+    "static/css/main.d14fb071.css",
+    "static/js/main.b3d92f36.js"
   ]
 }
