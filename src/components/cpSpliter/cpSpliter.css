@@ -6,3 +6,8 @@
     background: linear-gradient(to right, #426b65, #204b5e, #426b65);
     border: none;
 }
+@media screen and (max-width: 768px) {
+    .spliter {
+        margin-top: 100px;
+    }
+}

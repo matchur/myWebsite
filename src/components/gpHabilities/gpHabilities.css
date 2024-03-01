@@ -1,41 +1,72 @@
+.Group-principalHab
+{
+    height: 800px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   
+    
+}
+
+a{
+    cursor: url("../../../public/imgs/cursors/click.png"),auto;
+}
+
+.Group-habilities
+{
+    cursor: url("../../../public/imgs/cursors/default.png"),auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../../public/imgs/95wallpaper.jpg");
+    background-size: cover;
+    background-color: #fdfac7;
+    border: 6px solid #b7b590;
+    width: 55%;
+    height: 85%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;  
+    padding-top: 2%;  
+}
+
+.Group-badgesprincipal{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
 .Group-badges
 {
     display: flex;
+    height: 100%;
     flex-direction: column; 
     background-color: #fbea80;
     border: 2px solid #9a8e59;
     border-radius: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+
     align-items: center ;
-    margin-bottom: 10px;
+    
 }
 .Group-badgescontent
 {
-    margin-top: -33px;
+    padding-left: 10px;
+    padding-right: 10px;
     gap: 8px;
     display: flex;
     flex-direction: row;
     
 }
-.Group-habilities
-{
-    display: flex;
-    height: 800px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #fdfac7;
-    border: 6px solid #b7b590;
-    padding-left: 2%;
-    padding-right: 2%;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-}
+
 .Title-badges
 {
-    margin-top: 15px;
+    margin-top: -1px;
 }
+
 .Title-principal
 {
     font-size: 50px;
@@ -45,4 +76,12 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 30px;  
+}
+
+@media screen and (max-width: 768px) {
+.Group-habilities
+{
+    background-image:none;
+    width: 100%;
+}
 }

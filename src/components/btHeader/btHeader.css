@@ -37,3 +37,12 @@ button.neumorphic {
   margin-inline: auto;
   grid-template-columns: repeat(auto-fit, minmax(min(25%, 100%), 1fr)); /* Colunas responsivas */
 }
+
+/*Tela Celular*/
+@media screen and (max-width: 768px) {
+  button.neumorphic {
+    border: 2px solid #9a8e59; /* Cor do contorno */
+    border-radius: 0px; /* Arredondamento das bordas */
+    width: 95px;
+  }
+}

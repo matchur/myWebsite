@@ -1,10 +1,4 @@
 
-  .Photo-viewer{
-    height: 50px;
-    position: relative;
-    bottom: 70px;
-    left: 40%;
-  } 
 
 
   .card-groups,
@@ -24,7 +18,7 @@
   .card-group,
   .big-card {  
     aspect-ratio: 5 / 7;
-    width: 10vmin;
+    width: 13vmin;
   }
   
   .card-group {
@@ -82,17 +76,17 @@
     pointer-events: none;
   }
   
-  .big-card:nth-child(2) {
-    background-image: url("../../../public/imgs/scruble.png");
+  .big-card:nth-child(6) {
+    background-image: url("../../../public/imgs/personal1.png");
     transform: translateX(-10%) rotate(-1deg);
   }
   
-  .big-card:nth-child(4) {
+  .big-card:nth-child(2) {
     background-image: url("../../../public/imgs/carrinhoSL.jpg") ;
      transform: rotate(2deg);
   }
   
-  .big-card:nth-child(6) {
+  .big-card:nth-child(4) {
     background-image: url("../../../public/imgs/nasaSpaceApps.jpg") ;
     transform: translateX(-6%) rotate(-3deg);
   }
