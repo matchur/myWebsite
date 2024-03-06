@@ -148,3 +148,16 @@
   .card-group:hover > .little-card:nth-child(7) {
     transform: translate(-380%, -240%) rotate(-15deg);
   }
+
+  @media screen and (max-width: 768px) 
+  {
+    .little-card {
+      width: 14vmin;
+
+    }
+    .card-groups,
+    .card-group,
+    .big-card {  
+      width: 35vmin;
+    }
+  }

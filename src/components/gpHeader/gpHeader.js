@@ -26,7 +26,7 @@ function GpHeader() {
       <div className='display-flex'>
         <BtHeader textIn="Sobre Mim" viewY= "0"/>
         <BtHeader textIn="Habilidades" viewY= "940"/>
-        <BtHeader textIn="Projetos" viewY= "0"/>
+        <BtHeader textIn="Portfólio" viewY= "1820"/>
         <BtHeader textIn="Contato" viewY= "0"/>
       </div>
     </div>

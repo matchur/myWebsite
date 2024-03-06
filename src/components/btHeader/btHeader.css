@@ -43,6 +43,12 @@ button.neumorphic {
   button.neumorphic {
     border: 2px solid #9a8e59; /* Cor do contorno */
     border-radius: 0px; /* Arredondamento das bordas */
-    width: 95px;
+    width: 85px;
+
+    > span {
+
+      font-size: 13px;
+    }
+
   }
 }

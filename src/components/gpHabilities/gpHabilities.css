@@ -8,7 +8,7 @@
     
 }
 
-a{
+.a_insider{
     cursor: url("../../../public/imgs/cursors/click.png"),auto;
 }
 
@@ -18,18 +18,15 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     background-image: url("../../../public/imgs/95wallpaper.jpg");
     background-size: cover;
-    background-color: #fdfac7;
-    border: 6px solid #b7b590;
+    background-color: #8c8c85;
+    border: 6px solid #262626;
     width: 55%;
     height: 85%;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-bottom: 1%;  
+    justify-content: space-between;
     padding-top: 2%;  
 }
 
@@ -39,6 +36,32 @@ a{
     flex-direction: column;
 
 }
+
+#additional-text
+{
+  display: none;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  cursor: url("../../../public/imgs/cursors/click.png"),auto;
+  border: 1px solid #000000;
+  width: 15%;
+  background-color: #e0e0e0;
+}
+#additional-text:hover {
+  background-color: #bdbdbd; /* Gradiente verde mais claro ao passar o mouse */
+}
+
+#additional-textContent
+{
+    display: flex;
+    align-items: center;
+}
+.imgDesligar{
+  height: 35px;
+}
+
+
 
 .Group-badges
 {
@@ -62,6 +85,63 @@ a{
     
 }
 
+.Group-toolbar {
+    background: #4c69ba; /* Fallback para navegadores que não suportam gradientes */
+    background: -webkit-linear-gradient(to bottom, #4c69ba, #2b4f8a); /* Gradiente para navegadores WebKit (Chrome, Safari) */
+    background: linear-gradient(to bottom, #4c69ba, #2b4f8a); /* Gradiente padrão */
+    /* Adicione outras propriedades de estilo conforme necessário */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+.start-button {
+    background: #4caf50; /* Fallback para navegadores que não suportam gradientes */
+    background: -webkit-linear-gradient(top, #4caf50, #41883c); /* Gradiente para navegadores WebKit (Chrome, Safari) */
+    background: linear-gradient(to bottom, #4caf50, #41883c); /* Gradiente padrão */
+   
+color: white; /* Cor do texto */
+padding: 5px 10px; /* Adicionando um espaçamento interno */
+border-radius: 0px 5px 5px 0px; /* Borda arredondada */
+display: flex; /* Utilizando flexbox para alinhamento */
+align-items: center; /* Alinhamento vertical */
+cursor: url("../../../public/imgs/cursors/click.png"),auto;
+font-size: 130%;
+height: 40px;
+gap: 5px;
+width: 150px; /* Largura da div */
+
+}
+.current-time
+{
+    border: 1px solid #ffffff;
+}
+
+.current-time {
+color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-left: 1%;
+padding-right: 1%;
+font-size: 14px;
+margin-right: 20px; /* Ajuste o espaçamento conforme necessário */
+}
+
+.current-time span {
+display: block;
+}
+
+.start-button img {
+width: 45%; /* Tamanho do ícone */
+margin-right: 5px; /* Espaçamento entre o ícone e o texto */
+}
+
+.start-button:hover {
+  background: #55b555; /* Gradiente verde mais claro ao passar o mouse */
+}
+
 .Title-badges
 {
     margin-top: -1px;
@@ -77,11 +157,59 @@ a{
     flex-direction: column;
     margin-bottom: 30px;  
 }
+  
+  /* The @property CSS at-rule is part of the CSS Houdini umbrella of APIs. It */
+  @property --angle {
+      syntax: '<angle>';
+      initial-value: 0deg;
+      inherits: false;
+  }
+  
+  .spiral{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    color: #e0ecef;
+    font-family: "sans-serif";
+  }
+  
+  @keyframes spiral{
+    0%{
+      --angle: 0deg;
+    }
+    100%{
+      --angle: 360deg;
+    }
+  }
+  
+  .character{
+    font-size: 2rem;
+    color: white;
+    text-transform: uppercase;
+    transform: translateY(calc(sin(var(--angle)) * 100px)) scale(calc(cos(var(--angle)) * 0.5 + 0.5));
+    animation: spiral 4s linear infinite;
+  }
+  
+  @media (max-width: 490px){
+    .character{
+      font-size: 2.2rem
+    }
+  }
 
 @media screen and (max-width: 768px) {
 .Group-habilities
 {
     background-image:none;
-    width: 100%;
+    width: 95%;
+    height: 85%;
+}
+.Group-toolbar {
+    opacity: 0;
+}
+.Group-principalHab
+{
+    height: 600px;
+    
 }
 }

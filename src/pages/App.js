@@ -5,6 +5,7 @@ import GpHabilities from '../components/gpHabilities/gpHabilities';
 import CpSpliter from '../components/cpSpliter/cpSpliter';
 import GpFooter from '../components/gpFooter/gpFooter';
 import GpProjects from '../components/gpProjects/gpProjects';
+import GpContact from '../components/GpContact/gpContact';
 
 function App() 
 {
@@ -22,7 +23,8 @@ function App()
             <GpHabilities />
             <CpSpliter />
             <GpProjects />
-
+            <CpSpliter />
+            <GpContact />
       </body>      
       <footer>
         <GpFooter />

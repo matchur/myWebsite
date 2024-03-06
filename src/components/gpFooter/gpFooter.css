@@ -2,6 +2,7 @@
 	background-color: #426b65;
 	color: white;
 	padding: 20px 0;
+	width: 100%;
 	text-align: center;
   }
   
@@ -44,4 +45,12 @@
 	text-shadow: #fdfac72c 1px 3px;
 	white-space: nowrap; 
   } 
-  
+
+  @media screen and (max-width: 768px) 
+  {
+	.label-nail{
+
+		font-size: 12px; 
+		
+	  } 
+  }

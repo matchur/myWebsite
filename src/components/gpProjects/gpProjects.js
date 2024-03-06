@@ -1,21 +1,40 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './gpProjects.css';
 import { TiChevronLeftOutline, TiChevronRightOutline } from 'react-icons/ti';
 
 
 const GpProjects = () => {
   const MAX_VISIBILITY = 3;
+  const [activeProjectIndex, setActiveProjectIndex] = useState(0);
 
   // Array de objetos contendo informações dos projetos
-  const projects = [
+const projects = [
     {
+      title: "Agroflux",
+      description: "Desenvolvedor Júnior - Contribui ativamente no desenvolvimento de plataformas internas, aplicando habilidades técnicas e trabalho em equipe. Além do comprometimento em entregar resultados de alta qualidade e aprendizagem contínua.",
+      technologies: ["React", "Docker", "Next.JS", "MySQL", "JavaScript", "Postman","Gitlab"],
+      externalLinks: [
+          { externalName: "Site", externalLink: "https://www.agroflux.com.br/" },
+      ],
+      category: "Experiências"
+  },{
+      title: "Perfil News",
+      description: "Social Media e Publicidade do Site de Notícias Perfil News. Contribuí para a entrega de conteúdo atualizado e relevante, aplicando tecnicas de Publicidade e Marketing Digital. Utilizei de meus conhecimentos em programação para automatizar processos referente a edição de imagens em lotes.",
+      technologies: ["Adobe Photoshop", "Sony Vegas Pro 13", "Meta Business", "Wordpress"],
+      externalLinks: [
+          { externalName: "Site", externalLink: "https://www.perfilnews.com.br/" },
+          { externalName: "Instagram", externalLink: "https://www.instagram.com/perfilnews/" }
+      ],
+      category: "Experiências"
+  },
+{
       title: "Carol Atelier System",
-      description: "Desenvolvi um sistema desktop abrangente para gerenciamento de clientes, ativos, contratos, locações e geração de relatórios detalhados, além de diversos módulos essenciais para automatizar e aprimorar o fluxo de trabalho. Implementei uma abordagem completa de DevOps para compreender plenamente as necessidades do projeto. Elaborei um manual detalhado e forneci treinamento, além de oferecer suporte para garantir uma transição suave e eficiente.",
+      description: "Desenvolvi um sistema desktop para gerenciamento de clientes, ativos, contratos, locações e geração de relatórios detalhados, além de diversos módulos essenciais para automatizar e aprimorar o fluxo de trabalho. Implementei uma abordagem completa de DevOps para compreender plenamente as necessidades do projeto. Elaborei um manual detalhado e forneci treinamento, além de oferecer suporte para garantir a usabilidade correta do software.",
       technologies: ["Java", "JasperReports", "PostgreSQL", "JavaFX"],
       externalLinks: [
         { externalName: "Instagram", externalLink: "https://www.instagram.com/atelierdasfestas_carol/" }
       ],
-      category: "Projeto"
+      category: "Projetos"
     },
     {
       title: "Elaine Software",
@@ -25,16 +44,16 @@ const GpProjects = () => {
         { externalName: "Instagram", externalLink: "https://www.instagram.com/prixacademia/" },
         { externalName: "Manual - ERS", externalLink: "https://docs.google.com/document/d/1TjphPEAlf5vJP4N1S1gmpxQHOW1N9nJJbN_rovhXY68/edit?usp=sharing" } 
       ],
-      category: "Projeto"
+      category: "Projetos"
     },
     {
       title: "myWebsite",
-      description: "myWebsite é o projeto do meu portfólio. Construído com React, HTML, e CSS, e hospedado no GitHub, o myWebsite é uma oportunidade para aprender front-end e praticar a criação de componentes com CSS. Ele está disponível no GitHub para aqueles que desejam aprender a criar seu próprio portfólio.",
+      description: "myWebsite é o projeto do meu portfólio. Construído com React, HTML, e CSS, e hospedado no GitHub Pages. Ele está disponível no GitHub para aqueles que desejam aprender a criar seu próprio portfólio.",
       technologies: ["React", "HTML", "CSS", "GitHub Pages"],
       externalLinks: [
         { externalName: "GitHub", externalLink: "https://github.com/matchur/myWebsite" }
       ],
-      category: "Projeto"
+      category: "Projetos"
     },
     {
         title: "DoeJá",
@@ -44,51 +63,39 @@ const GpProjects = () => {
             { externalName: "GitHub", externalLink: "https://github.com/Hauagge/DoeJa" },
             { externalName: "Site", externalLink: "https://doeja.app/" }
         ],
-        category: "Projeto"
+        category: "Projetos"
     },
 
     {
-        title: "1º Lugar: Carrinho Segue linha",
-        description: "Ganhei em primeiro lugar a 3º competição de carrinho segue linha da empreendeWeek",
+        title: "1º Lugar: Carrinho Segue Linha",
+        description: "Ganhei em primeiro lugar a 3º competição de carrinho segue linha do evento EmpreendeWeek",
         technologies: ["Arduino","C++"],
-        category: "Atividade"
+        category: "Atividades"
     },
     {
         title: "Masterpiece Manufacturing",
-        description: "Como bolsista de desenvolvimento pelo programa de extensão lúdico da UTFPR Campus Cornélio Procópio, tive a oportunidade de criar um jogo educacional, cooperativo e online. O objetivo do projeto é proporcionar uma experiência envolvente e divertida, ensinando de maneira interativa os processos de usinagem de peças.",
+        description: "Como bolsista pelo programa de extensão Lúdico da UTFPR Campus Cornélio Procópio, tive a oportunidade de criar um jogo educacional, cooperativo e online. O objetivo do jogo é proporcionar uma experiência dinâmica entre os alunos, ensinando de maneira interativa os processos de usinagem de peças.",
         technologies: ["JavaScript", "HTML", "Phaser 3"],
         externalLinks: [
             { externalName: "GitHub", externalLink: "https://github.com/matchur/MasterpieceManufacturing" }
         ],
-        category: "Projeto"
+        category: "Projetos"
     },
-    {
-        title: "Perfil News",
-        description: "Social Media e Publicidade do Site de Notícias Perfil News. Contribuí para a entrega de conteúdo atualizado e relevante, aplicando tecnicas de Publicidade e Marketing Digital. Utilizei de meus conhecimentos em programação para automatizar processos referente a edição de imagens em lotes.",
-        technologies: ["Adobe Photoshop", "Sony Vegas Pro 13", "Meta Business", "Wordpress"],
-        externalLinks: [
-            { externalName: "Site", externalLink: "https://www.perfilnews.com.br/" },
-            { externalName: "Instagram", externalLink: "https://www.instagram.com/perfilnews/" }
-        ],
-        category: "Emprego"
-    },
-    {
-        title: "Agroflux",
-        description: "Desenvolvedor Júnior - Contribui ativamente no desenvolvimento de plataformas internas, aplicando habilidades técnicas e trabalho em equipe. Além do comprometimento em entregar resultados de alta qualidade e aprendizagem contínua.",
-        technologies: ["React", "Docker", "Next.JS", "MySQL", "JavaScript", "Postman","Gitlab"],
-        externalLinks: [
-            { externalName: "Site", externalLink: "https://www.agroflux.com.br/" },
-        ],
-        category: "Emprego"
-    }
+
   ];
   
+  const categories = [...new Set(projects.map(project => project.category))];
+
+  const handleButtonClick = (index) => {
+    setActiveProjectIndex(index);
+  };
+
   const Letter = ({ project }) => (
     <div className='letter'>
       <h2>{project.title}</h2>
       <p>{project.description}</p>
       <p><b>Tecnologias utilizadas:</b> {project.technologies.join(', ')}.</p>
-      <p><b>{project.externalLinks?'Links Externos:':""}</b></p>
+      <p><b>{project.externalLinks ? 'Links Externos:' : ""}</b></p>
       <ul>
         {project.externalLinks?.map((link, index) => (
           <li key={index}><a href={link.externalLink}>{link.externalName}</a></li>
@@ -96,9 +103,15 @@ const GpProjects = () => {
       </ul>
     </div>
   );
+  
   const Carousel = ({ children }) => {
     const [active, setActive] = useState(0); // Inicie o primeiro projeto como ativo
     const count = children.length;
+
+    useEffect(() => {
+      setActive(activeProjectIndex);
+      
+    }, []);
 
     return (
       <div className='carousel'>
@@ -123,6 +136,7 @@ const GpProjects = () => {
 
   return (
     <div className='Group-componente'>
+      <h1 className='Text-projetos'>Portfólio</h1>
       <div className='componente'>
         <Carousel>
           {projects.map((project, i) => (
@@ -130,7 +144,24 @@ const GpProjects = () => {
           ))}
         </Carousel>
       </div>
-
+  
+      <div className='Group-projectsNavigator'>
+        {categories.map((category, index) => (
+          <div className='Group-projectsButtons' key={index}>
+            <h2>{category}</h2>
+            <div className='Group-projectsInner'>
+                {projects.map((project,index) => {
+                if (category === project.category) {
+                  return (
+                    <button key={project.title} onClick={() => handleButtonClick(index)}>• {project.title}</button>
+                  );
+                }
+                else return undefined
+              })}
+            </div>
+          </div>
+        ))}
+      </div>      
     </div>
   );
 };
