@@ -40,8 +40,8 @@
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
   flex-direction: column;
   gap: 5px;
-  background-color: #fbea80; 
-  border: 2px solid #9a8e59; 
+  background-color: #C7C8CC; 
+  border: 2px solid #5a5a5a; 
   align-items: center;
   border-radius: 10px;
 }
@@ -64,8 +64,8 @@
   width: 60%; 
   height: 555px; 
 
-  background-color: #fbea80; 
-  border: 2px solid #9a8e59; 
+  background-color: #C7C8CC; 
+  border: 2px solid #5a5a5a; 
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
   display: flex;
   gap: 18px;

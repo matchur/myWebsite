@@ -29,7 +29,7 @@ const projects = [
   },
 {
       title: "Carol Atelier System",
-      description: "Desenvolvi um sistema desktop para gerenciamento de clientes, ativos, contratos, locações e geração de relatórios detalhados, além de diversos módulos essenciais para automatizar e aprimorar o fluxo de trabalho. Implementei uma abordagem completa de DevOps para compreender plenamente as necessidades do projeto. Elaborei um manual detalhado e forneci treinamento, além de oferecer suporte para garantir a usabilidade correta do software.",
+      description: "Desenvolvi um sistema desktop para gerenciamento de clientes, ativos, contratos, locações e geração de relatórios detalhados, além de diversos módulos essenciais para automatizar e aprimorar o fluxo de trabalho. Implementei uma abordagem completa de DevOps para compreender plenamente as necessidades do projeto. Elaborei um manual detalhado e forneci treinamento.",
       technologies: ["Java", "JasperReports", "PostgreSQL", "JavaFX"],
       externalLinks: [
         { externalName: "Instagram", externalLink: "https://www.instagram.com/atelierdasfestas_carol/" }

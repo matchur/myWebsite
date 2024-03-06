@@ -54,7 +54,7 @@
     width: 100%;
     height: 100%;
     padding: 2rem;
-    background-color: hsl(198deg, 49%, calc(100% - var(--abs-offset) * 109%),1);
+    background-color: hsl(198deg, 20%, calc(100% - var(--abs-offset) * 109%), 1);
     border-radius: 1rem;
     color: var(--color-3);
     text-align: justify;
@@ -111,16 +111,16 @@
     align-items: center;
     justify-content: top;
     align-self: center;
-    background-color: #365d6e;
-    border: 3px solid #c3ced4; /* Altere a cor da borda para azul claro */
+    background-color: #C7C8CC; 
+    border: 2px solid #B4B4B8; 
     border-radius: 6px;
     height: 100%;
     width: 200px;
-
+    text-shadow: #0000002c 2px 2px;
     display: flex;
     flex-direction: column;
     >h2{
-      color: white;
+      color: #292929;
     }
   }
   .Group-projectsInner
@@ -133,18 +133,18 @@
     margin-left: 8px;
     margin-right: 8px;
     margin-bottom: 10px;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    
 
     
     >button {
       padding: 10px 20px; /* Adicionando padding uniforme */
       justify-content: center;
-  
+      box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.3);
       font-size: 16px;
       border-radius: 4px;
       width: 100%;
       height: 100%; /* Altura fixa */
-      background-color: #90a5af; /* Cor de fundo */
+      background-color: #B4B4B8; /* Cor de fundo */
       border: none; /* Removendo a borda */
       cursor: pointer; /* Cursor do mouse */
       transition: background-color 0.3s; /* Transição suave */
@@ -152,13 +152,16 @@
     }
     
     >button:hover {
-      background-color: #d2dbdf; /* Mudando a cor de fundo ao passar o mouse */
+      position: relative;
+      bottom: -1%;
+      background-color: #9d9d9d; /* Mudando a cor de fundo ao passar o mouse */
+      box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.3);
     }
   }
   .Text-projetos{
     font-size: 55px;
-    text-shadow: #00000099 6px 10px;
-    color: white;
+    text-shadow: #0000002c 6px 7px;
+    color: rgb(0, 0, 0);
   }
 
   @media screen and (max-width: 768px) {

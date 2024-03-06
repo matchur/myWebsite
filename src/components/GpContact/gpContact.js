@@ -27,11 +27,11 @@ function GpContact() {
         <img
           className='backgroundContact'
           src={       window.innerWidth <= 768?   './imgs/myfotos/wallpaperMeCel.png':   './imgs/myfotos/wallpaperMe.png'   }
-          style={{ transform: `translateY(${scrollPosition * 0.017}px)` , opacity: 0 + scrollPosition / 3080 }} // Adjust speed as needed
+          style={{ transform: `translateY(${scrollPosition * 0.017}px)` , opacity: 0 + (scrollPosition > 2800? scrollPosition / 3400:0) }} // Adjust speed as needed
           alt="Background"
         />
         <div className="overlay">
-          <h1>Vamos Conversar?</h1>
+          <h1>Entre em contato:</h1>
           <div className='contactCards'>
             <BtContact img="whatsapp" Name="Telefone: " Desc=" (18) 982028260" Link = "https://api.whatsapp.com/send?phone=5518982028260"/>
             <BtContact img="gmail" Name="E-mail: " Desc="ma.usv@hotmail.com" Link="mailto:ma.usv@hotmail.com" />

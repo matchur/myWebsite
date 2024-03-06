@@ -1,9 +1,10 @@
 button.neumorphic {
   container-type: inline-size;
   aspect-ratio: 1/1;
-  border: 2px solid #9a8e59; /* Cor do contorno */
+
+  border: 2px solid #5a5a5a;  
   border-radius: 40px; /* Arredondamento das bordas */
-  color: #baab6a; /* Cor do texto */
+ 
   background: none; /* Cor de fundo */
   display: grid;
   height: 30px;
@@ -25,7 +26,7 @@ button.neumorphic {
     color: hsl(10 80% 50%); /* Cor do texto */
   }
   > span {
-    color: #fbea80;
+    color: #202020; /* Cor do texto */
     font-size: 15px; /* Tamanho do texto */
     font-family: system-ui, sans-serif; /* Fonte do texto */
   }
@@ -41,7 +42,7 @@ button.neumorphic {
 /*Tela Celular*/
 @media screen and (max-width: 768px) {
   button.neumorphic {
-    border: 2px solid #9a8e59; /* Cor do contorno */
+
     border-radius: 0px; /* Arredondamento das bordas */
     width: 85px;
 
