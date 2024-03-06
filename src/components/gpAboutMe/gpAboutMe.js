@@ -32,7 +32,7 @@ function GpAboutMe() {
               <img className='Pin-aboutme'  alt="Componente Visual" src="./imgs/pinAboutMe.png"></img>
               <div className='Group-Title'>   
                 <div className='Title-aboutme'>Sobre Mim</div>         
-                <div className='Subtitle-aboutme'>Matheus Vinicius Costa</div>   
+                <div className='Subtitle-aboutme'>&#123;M&#125;</div>   
               </div>
                 <div className='Text-aboutme1'> Olá, me chamo <b>Matheus V. Costa</b>, sou <t id='element'></t>, sempre 
                 dedicado a melhorar minhas habilidades e desenvolver idéias inteligentes.</div>

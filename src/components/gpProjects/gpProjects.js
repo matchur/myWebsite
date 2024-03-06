@@ -73,6 +73,18 @@ const projects = [
         category: "Atividades"
     },
     {
+      title: "Ministrante: Curso de Programação de Jogos",
+      description: "Conduzi um mini curso de 12 horas focado em desenvolvimento básico de jogos utilizando GameMaker Studio.",
+      technologies: ["GameMaker Language (GML)"],
+      category: "Atividades"
+    },
+    {
+      title: "Ministrante: Curso de Kali Linux",
+      description: "Ministrei um mini curso de 12 horas demonstrando o uso das ferramentas do Kali Linux e técnicas de verificação de segurança.",
+      technologies: ["Kali Linux"],
+      category: "Atividades"
+  },
+    {
         title: "Masterpiece Manufacturing",
         description: "Como bolsista pelo programa de extensão Lúdico da UTFPR Campus Cornélio Procópio, tive a oportunidade de criar um jogo educacional, cooperativo e online. O objetivo do jogo é proporcionar uma experiência dinâmica entre os alunos, ensinando de maneira interativa os processos de usinagem de peças.",
         technologies: ["JavaScript", "HTML", "Phaser 3"],
@@ -87,6 +99,10 @@ const projects = [
   const categories = [...new Set(projects.map(project => project.category))];
 
   const handleButtonClick = (index) => {
+    window.scrollTo({
+      top: 1820,
+      behavior: 'smooth',
+    });
     setActiveProjectIndex(index);
   };
 

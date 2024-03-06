@@ -43,9 +43,9 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    height: 950px;
+    height: 1200px;
     width: 100%;
-    gap: 20px;
+    gap: 30px;
 
   }
 
@@ -116,7 +116,6 @@
     border-radius: 6px;
     height: 100%;
     width: 200px;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
 
     display: flex;
     flex-direction: column;
@@ -207,7 +206,7 @@
 
     .carousel {
       height: 800px;
-      perspective: 100px;
+      perspective: 30px;
       width: 412px;
     }
     .Group-projectsNavigator{
@@ -217,7 +216,7 @@
     }
     .Group-projectsButtons{
 
-      width: 110%;
+      width: 100%;
       height: auto;
       padding-bottom: 5%;
     }

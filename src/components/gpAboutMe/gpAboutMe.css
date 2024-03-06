@@ -87,7 +87,9 @@
   font-size: 13px; 
   font-weight: bold;
   position: relative;
-  left: 42%;
+  left:90%;
+  top: 2px;
+  width: 50px;
   bottom: 10px;
   text-shadow: #00000031 1px 1px;
 }
