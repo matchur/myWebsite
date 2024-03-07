@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import TypeIt from "typeit";
+import React, { useEffect} from 'react';
+import PhotoViewer from '../photoViewer/photoViewer';
 import './gpAboutMe.css';
 import Typewriter from 'typewriter-effect/dist/core';
 
@@ -11,37 +11,45 @@ function GpAboutMe() {
   useEffect(()=>
   {
     new Typewriter('#element', {
-      strings: ['Matheus V. <b>Costa</b>', 'Desenvolvedor','Cientista','Criativo',],
+      strings: ['Desenvolvedor','Ciêntista da Computação','<i>Full Stack Dev</i>',],
       autoStart: true,
       loop: true,
+      deleteSpeed: 90,
+      pauseFor: 4000,
     });
   },[]);
   
 
   return (
     <div className='Group-principal'>
-      <div className="Group-content">
-        <div className="image-container">
-          <figure id="container">
-            <img alt="demonstrative img" src="./imgs/logo1.png" />  
-            <figcaption id='element'></figcaption>
-          </figure>
+        
+
+            <img className="ImgLogo1" alt="demonstrative img" src="./imgs/logo1.png" />  
+
+
           <div className='Group-aboutme'>
-            <img className='Pin-aboutme'  alt="Componente Visual" src="./imgs/pinAboutMe.png"></img>
-            <div className='Group-Title'>   
-              <a className='Title-aboutme'>Sobre Mim</a>         
-              <a className='Subtitle-aboutme'>Matheus Vinicius Costa</a>   
+            <div className='Group-aboutme_inner'>
+              <img className='Pin-aboutme'  alt="Componente Visual" src="./imgs/pinAboutMe.png"></img>
+              <div className='Group-Title'>   
+                <div className='Title-aboutme'>Sobre Mim</div>         
+                <div className='Subtitle-aboutme'>&#123;M&#125;</div>   
+              </div>
+                <div className='Text-aboutme1'> Olá, me chamo <b>Matheus V. Costa</b>, sou <t id='element'></t>, sempre 
+                dedicado a melhorar minhas habilidades e desenvolver idéias inteligentes.</div>
+                <PhotoViewer /> 
             </div>
-   
-              <a className='Text-aboutme'> Olá, me chamo <b>Matheus Costa</b>, sou desenvolvedor de softwares e um grande entusiasta 
-              da Ciência da Computação, sempre dedicado a melhorar minhas habilidades e desenvolver aplicativos e idéias inteligentes.</a>
-              <a className='Text-aboutme'> Aqui no meu site, você vai encontrar algumas coisas interessantes <i>sobre mim </i> 
-              então fique a vontade para explorar, talvez eu tenha deixado alguns <b>Easter Eggs</b> por aí...
-              </a>
-              <a className='Text-aboutme'></a>
-          </div>
-        </div>
-      </div>  
+
+            <div className='Group-easycontact'>
+              <img className='Pin-easycontact'  alt="Componente Visual 2" src="./imgs/pinAboutMe.png"></img>
+              <button className="custom-btn btn-3" onClick={() => window.open('https://www.linkedin.com/in/matheus-vin%C3%ADcius-costa-127666189/')}><span>LinkedIn</span></button>
+              <button className="custom-btn btn-3" onClick={() => window.open('https://github.com/matchur')}><span>GitHub</span></button>          
+              </div>
+
+            </div>
+        
+      
+      
+
     </div>
   );
 }

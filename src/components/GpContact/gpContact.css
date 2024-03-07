@@ -1,0 +1,75 @@
+.Group-PrincipalContact {
+    height: 80%;
+    overflow: hidden;
+    position: relative; /* Adiciona uma posição relativa para o wrapper */
+  }
+  
+  .background-wrapper {
+    position: relative; /* Posição absoluta para a imagem */
+
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .backgroundContact {
+    width: 100%;
+    transition: transform 0.5s ease, opacity 0.5s ease; /* Adiciona uma transição suave */
+  }
+
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -46%);
+    background-color: rgba(0, 0, 0, 0.5); /* Define a cor de fundo preta com 50% de transparência */
+    width: 90%; /* Largura da div */
+    height: 60%; /* Altura da div */
+    display: flex;
+    border-radius: 100px;
+    flex-direction: column;
+    align-items: center;
+
+
+    >h1 {
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adiciona um sombreado ao texto */
+      }
+    .contactCards{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        height: 100%;
+        gap: 10px;
+        margin-bottom: 2%;
+    }
+
+  } 
+  
+  @media screen and (max-width: 768px) {
+
+    .Group-PrincipalContact {
+        height: 600px;
+        margin-top: -70px;
+    }
+    .overlay {
+        border-radius: 20px;
+        transform: translate(-50%, -43%);
+        height: 75%; /* Altura da div */
+        >h1 {
+            font-size: 20px;
+          }
+          .contactCards{
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            height: 100%;
+            gap: 10px;
+            margin-bottom: 2%;
+        }  
+      } 
+      
+
+      
+}

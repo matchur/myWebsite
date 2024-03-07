@@ -1,12 +1,10 @@
 
 .App-backGround {
-  background-color: #204b5e;
+  background-color: #F2EFE5;
 }
 
 
 .App-header {
-  padding-top: 1%;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items:center;

@@ -1,16 +1,19 @@
 import React from 'react';
 import './btHeader.css';
 
-const BtHeader = ({ textIn, img}) => {
-    
-    const divStyle = {
-        backgroundImage: `url(${img})`, // Define a imagem de fundo
-      };
-    
+const BtHeader = (params) => {
+  
+  const handleClick = () => {
+    window.scrollTo({
+      top: params.viewY,
+      behavior: 'smooth', // Adiciona um comportamento de rolagem suave
+    });
+  };
+
   return (
-    <div id={textIn} className="Button-header" style={divStyle}>
-      <span>{textIn}</span>
-    </div>
+      <button class="neumorphic" onClick={handleClick}>
+              <span><b>{params.textIn}</b></span>
+      </button>
   );
 }
 
