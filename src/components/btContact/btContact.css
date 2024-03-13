@@ -112,3 +112,10 @@ button.neumorphic-Contact {
 }
 
 }
+@media screen and (max-width: 450px) {
+
+  .bt-Text
+  {
+      font-size: 11px;
+  }
+}
