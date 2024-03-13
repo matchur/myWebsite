@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/www.matchur.com.br/static/css/main.e3cdcdab.css",
-    "main.js": "/www.matchur.com.br/static/js/main.9e9022b2.js",
-    "static/js/453.f69bbbff.chunk.js": "/www.matchur.com.br/static/js/453.f69bbbff.chunk.js",
-    "static/media/nasaSpaceApps.jpg": "/www.matchur.com.br/static/media/nasaSpaceApps.05f5af793b7f7d957199.jpg",
-    "static/media/personal1.png": "/www.matchur.com.br/static/media/personal1.da0a9bcd051bf7e6dcdc.png",
-    "static/media/2024Att.png": "/www.matchur.com.br/static/media/2024Att.e2fc210b0bf19d498c64.png",
-    "static/media/meNow.png": "/www.matchur.com.br/static/media/meNow.ab39e1073738ab592cb8.png",
-    "static/media/95wallpaper.jpg": "/www.matchur.com.br/static/media/95wallpaper.999f07f0a7d05cc1eb23.jpg",
-    "static/media/javaLogo.jpg": "/www.matchur.com.br/static/media/javaLogo.bc7a3325b6ee01ddcab8.jpg",
-    "static/media/postgreLogo.png": "/www.matchur.com.br/static/media/postgreLogo.155da835c78eb125c678.png",
-    "static/media/dockerLogo.png": "/www.matchur.com.br/static/media/dockerLogo.498c1fd6d1847640d202.png",
-    "index.html": "/www.matchur.com.br/index.html",
-    "main.e3cdcdab.css.map": "/www.matchur.com.br/static/css/main.e3cdcdab.css.map",
-    "main.9e9022b2.js.map": "/www.matchur.com.br/static/js/main.9e9022b2.js.map",
-    "453.f69bbbff.chunk.js.map": "/www.matchur.com.br/static/js/453.f69bbbff.chunk.js.map"
+    "main.css": "/static/css/main.135f0c52.css",
+    "main.js": "/static/js/main.79267dc2.js",
+    "static/js/453.f69bbbff.chunk.js": "/static/js/453.f69bbbff.chunk.js",
+    "static/media/nasaSpaceApps.jpg": "/static/media/nasaSpaceApps.05f5af793b7f7d957199.jpg",
+    "static/media/personal1.png": "/static/media/personal1.da0a9bcd051bf7e6dcdc.png",
+    "static/media/2024Att.png": "/static/media/2024Att.e2fc210b0bf19d498c64.png",
+    "static/media/meNow.png": "/static/media/meNow.ab39e1073738ab592cb8.png",
+    "static/media/95wallpaper.jpg": "/static/media/95wallpaper.999f07f0a7d05cc1eb23.jpg",
+    "static/media/javaLogo.jpg": "/static/media/javaLogo.bc7a3325b6ee01ddcab8.jpg",
+    "static/media/postgreLogo.png": "/static/media/postgreLogo.155da835c78eb125c678.png",
+    "static/media/dockerLogo.png": "/static/media/dockerLogo.498c1fd6d1847640d202.png",
+    "index.html": "/index.html",
+    "main.135f0c52.css.map": "/static/css/main.135f0c52.css.map",
+    "main.79267dc2.js.map": "/static/js/main.79267dc2.js.map",
+    "453.f69bbbff.chunk.js.map": "/static/js/453.f69bbbff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3cdcdab.css",
-    "static/js/main.9e9022b2.js"
+    "static/css/main.135f0c52.css",
+    "static/js/main.79267dc2.js"
   ]
 }
