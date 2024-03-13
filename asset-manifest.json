@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.135f0c52.css",
+    "main.css": "/static/css/main.bcdfdd2b.css",
     "main.js": "/static/js/main.79267dc2.js",
     "static/js/453.f69bbbff.chunk.js": "/static/js/453.f69bbbff.chunk.js",
     "static/media/nasaSpaceApps.jpg": "/static/media/nasaSpaceApps.05f5af793b7f7d957199.jpg",
@@ -12,12 +12,12 @@
     "static/media/postgreLogo.png": "/static/media/postgreLogo.155da835c78eb125c678.png",
     "static/media/dockerLogo.png": "/static/media/dockerLogo.498c1fd6d1847640d202.png",
     "index.html": "/index.html",
-    "main.135f0c52.css.map": "/static/css/main.135f0c52.css.map",
+    "main.bcdfdd2b.css.map": "/static/css/main.bcdfdd2b.css.map",
     "main.79267dc2.js.map": "/static/js/main.79267dc2.js.map",
     "453.f69bbbff.chunk.js.map": "/static/js/453.f69bbbff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.135f0c52.css",
+    "static/css/main.bcdfdd2b.css",
     "static/js/main.79267dc2.js"
   ]
 }
