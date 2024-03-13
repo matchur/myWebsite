@@ -81,8 +81,8 @@
     transform: translateX(-10%) rotate(-1deg);
   }
   
-  .big-card:nth-child(2) {
-    background-image: url("../../../public/imgs/carrinhoSL.jpg") ;
+  .big-card:nth-child(8) {
+    background-image: url("../../../public/imgs/meNow.png") ;
      transform: rotate(2deg);
   }
   
@@ -91,7 +91,7 @@
     transform: translateX(-6%) rotate(-3deg);
   }
   
-  .big-card:nth-child(8) {
+  .big-card:nth-child(2) {
     background-image: url("../../../public/imgs/2024Att.png") ;
     transform: translate(10%, 3%) rotate(5deg);
   }
