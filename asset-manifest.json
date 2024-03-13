@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/matchur.github.io/myWebsite/static/css/main.d869cb4d.css",
+    "main.css": "/matchur.github.io/myWebsite/static/css/main.13d4f52c.css",
     "main.js": "/matchur.github.io/myWebsite/static/js/main.0c9b4b63.js",
     "static/js/453.f69bbbff.chunk.js": "/matchur.github.io/myWebsite/static/js/453.f69bbbff.chunk.js",
     "static/media/nasaSpaceApps.jpg": "/matchur.github.io/myWebsite/static/media/nasaSpaceApps.05f5af793b7f7d957199.jpg",
@@ -12,12 +12,12 @@
     "static/media/postgreLogo.png": "/matchur.github.io/myWebsite/static/media/postgreLogo.155da835c78eb125c678.png",
     "static/media/dockerLogo.png": "/matchur.github.io/myWebsite/static/media/dockerLogo.498c1fd6d1847640d202.png",
     "index.html": "/matchur.github.io/myWebsite/index.html",
-    "main.d869cb4d.css.map": "/matchur.github.io/myWebsite/static/css/main.d869cb4d.css.map",
+    "main.13d4f52c.css.map": "/matchur.github.io/myWebsite/static/css/main.13d4f52c.css.map",
     "main.0c9b4b63.js.map": "/matchur.github.io/myWebsite/static/js/main.0c9b4b63.js.map",
     "453.f69bbbff.chunk.js.map": "/matchur.github.io/myWebsite/static/js/453.f69bbbff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d869cb4d.css",
+    "static/css/main.13d4f52c.css",
     "static/js/main.0c9b4b63.js"
   ]
 }
