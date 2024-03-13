@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './gpProjects.css';
 import { TiChevronLeftOutline, TiChevronRightOutline } from 'react-icons/ti';
+import ImgVisualizer from '../imgVisualizer/imgVisualizer'
+
 
 
 const GpProjects = () => {
@@ -117,6 +119,8 @@ const projects = [
           <li key={index}><a href={link.externalLink}>{link.externalName}</a></li>
         ))}
       </ul>
+      <ImgVisualizer />
+
     </div>
   );
   
