@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/myWebsite/static/css/main.4080b8b4.css",
-    "main.js": "/myWebsite/static/js/main.aaba64ca.js",
-    "static/js/453.f69bbbff.chunk.js": "/myWebsite/static/js/453.f69bbbff.chunk.js",
-    "static/media/nasaSpaceApps.jpg": "/myWebsite/static/media/nasaSpaceApps.05f5af793b7f7d957199.jpg",
-    "static/media/carrinhoSL.jpg": "/myWebsite/static/media/carrinhoSL.5d0f985a9b30d3ff43bd.jpg",
-    "static/media/personal1.png": "/myWebsite/static/media/personal1.da0a9bcd051bf7e6dcdc.png",
-    "static/media/2024Att.png": "/myWebsite/static/media/2024Att.e2fc210b0bf19d498c64.png",
-    "static/media/95wallpaper.jpg": "/myWebsite/static/media/95wallpaper.999f07f0a7d05cc1eb23.jpg",
-    "static/media/javaLogo.jpg": "/myWebsite/static/media/javaLogo.bc7a3325b6ee01ddcab8.jpg",
-    "static/media/postgreLogo.png": "/myWebsite/static/media/postgreLogo.155da835c78eb125c678.png",
-    "static/media/dockerLogo.png": "/myWebsite/static/media/dockerLogo.498c1fd6d1847640d202.png",
-    "index.html": "/myWebsite/index.html",
-    "main.4080b8b4.css.map": "/myWebsite/static/css/main.4080b8b4.css.map",
-    "main.aaba64ca.js.map": "/myWebsite/static/js/main.aaba64ca.js.map",
-    "453.f69bbbff.chunk.js.map": "/myWebsite/static/js/453.f69bbbff.chunk.js.map"
+    "main.css": "/matchur.github.io/myWebsite/static/css/main.d869cb4d.css",
+    "main.js": "/matchur.github.io/myWebsite/static/js/main.0c9b4b63.js",
+    "static/js/453.f69bbbff.chunk.js": "/matchur.github.io/myWebsite/static/js/453.f69bbbff.chunk.js",
+    "static/media/nasaSpaceApps.jpg": "/matchur.github.io/myWebsite/static/media/nasaSpaceApps.05f5af793b7f7d957199.jpg",
+    "static/media/personal1.png": "/matchur.github.io/myWebsite/static/media/personal1.da0a9bcd051bf7e6dcdc.png",
+    "static/media/2024Att.png": "/matchur.github.io/myWebsite/static/media/2024Att.e2fc210b0bf19d498c64.png",
+    "static/media/meNow.png": "/matchur.github.io/myWebsite/static/media/meNow.ab39e1073738ab592cb8.png",
+    "static/media/95wallpaper.jpg": "/matchur.github.io/myWebsite/static/media/95wallpaper.999f07f0a7d05cc1eb23.jpg",
+    "static/media/javaLogo.jpg": "/matchur.github.io/myWebsite/static/media/javaLogo.bc7a3325b6ee01ddcab8.jpg",
+    "static/media/postgreLogo.png": "/matchur.github.io/myWebsite/static/media/postgreLogo.155da835c78eb125c678.png",
+    "static/media/dockerLogo.png": "/matchur.github.io/myWebsite/static/media/dockerLogo.498c1fd6d1847640d202.png",
+    "index.html": "/matchur.github.io/myWebsite/index.html",
+    "main.d869cb4d.css.map": "/matchur.github.io/myWebsite/static/css/main.d869cb4d.css.map",
+    "main.0c9b4b63.js.map": "/matchur.github.io/myWebsite/static/js/main.0c9b4b63.js.map",
+    "453.f69bbbff.chunk.js.map": "/matchur.github.io/myWebsite/static/js/453.f69bbbff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4080b8b4.css",
-    "static/js/main.aaba64ca.js"
+    "static/css/main.d869cb4d.css",
+    "static/js/main.0c9b4b63.js"
   ]
 }
