@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import './cpDevText.css';
 
 const CpDevText = (params) => {
@@ -12,6 +12,7 @@ const CpDevText = (params) => {
                         <div><div> &lt;Front-End/&gt;</div></div>
                         <div><div>.&#40;Back-End&#41;</div></div>
                         <div><div>&gt;$ Pentest</div></div>
+                        <div><div>🎮 GameDev 🎲</div></div>
                     </div>
                 </div>
             </div>
