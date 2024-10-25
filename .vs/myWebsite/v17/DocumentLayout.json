@@ -1,14 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Matheus\\Documents\\Github Projects\\myWebsite\\",
+  "WorkspaceRootPath": "C:\\Users\\Matheus\\Documents\\GithubProjects\\myWebsite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Matheus\\Documents\\Github Projects\\myWebsite\\src\\pages\\App.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Matheus\\Documents\\GithubProjects\\myWebsite\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Matheus\\Documents\\GithubProjects\\myWebsite\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Matheus\\Documents\\GithubProjects\\myWebsite\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Matheus\\Documents\\GithubProjects\\myWebsite\\src\\pages\\App.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\App.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Matheus\\Documents\\Github Projects\\myWebsite\\src\\pages\\App.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Matheus\\Documents\\GithubProjects\\myWebsite\\src\\pages\\App.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\App.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Matheus\\Documents\\GithubProjects\\myWebsite\\src\\components\\cpDevText\\cpDevText.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\cpDevText\\cpDevText.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Matheus\\Documents\\GithubProjects\\myWebsite\\src\\components\\cpDevText\\cpDevText.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\cpDevText\\cpDevText.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Matheus\\Documents\\GithubProjects\\myWebsite\\src\\components\\gpHabilities\\gpHabilities.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\gpHabilities\\gpHabilities.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Matheus\\Documents\\GithubProjects\\myWebsite\\src\\components\\gpHabilities\\gpHabilities.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\gpHabilities\\gpHabilities.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,16 +46,107 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "package-lock.json",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\GithubProjects\\myWebsite\\package-lock.json",
+              "RelativeDocumentMoniker": "package-lock.json",
+              "ToolTip": "C:\\Users\\Matheus\\Documents\\GithubProjects\\myWebsite\\package-lock.json",
+              "RelativeToolTip": "package-lock.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-25T21:46:23.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "cpDevText.js",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\GithubProjects\\myWebsite\\src\\components\\cpDevText\\cpDevText.js",
+              "RelativeDocumentMoniker": "src\\components\\cpDevText\\cpDevText.js",
+              "ToolTip": "C:\\Users\\Matheus\\Documents\\GithubProjects\\myWebsite\\src\\components\\cpDevText\\cpDevText.js",
+              "RelativeToolTip": "src\\components\\cpDevText\\cpDevText.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-25T19:33:21.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "cpDevText.css",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\GithubProjects\\myWebsite\\src\\components\\cpDevText\\cpDevText.css",
+              "RelativeDocumentMoniker": "src\\components\\cpDevText\\cpDevText.css",
+              "ToolTip": "C:\\Users\\Matheus\\Documents\\GithubProjects\\myWebsite\\src\\components\\cpDevText\\cpDevText.css",
+              "RelativeToolTip": "src\\components\\cpDevText\\cpDevText.css",
+              "ViewState": "AgIAABUAAAAAAAAAAAAgwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-25T19:34:03.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "gpHabilities.css",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\GithubProjects\\myWebsite\\src\\components\\gpHabilities\\gpHabilities.css",
+              "RelativeDocumentMoniker": "src\\components\\gpHabilities\\gpHabilities.css",
+              "ToolTip": "C:\\Users\\Matheus\\Documents\\GithubProjects\\myWebsite\\src\\components\\gpHabilities\\gpHabilities.css",
+              "RelativeToolTip": "src\\components\\gpHabilities\\gpHabilities.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-25T19:32:41.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "gpHabilities.js",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\GithubProjects\\myWebsite\\src\\components\\gpHabilities\\gpHabilities.js",
+              "RelativeDocumentMoniker": "src\\components\\gpHabilities\\gpHabilities.js",
+              "ToolTip": "C:\\Users\\Matheus\\Documents\\GithubProjects\\myWebsite\\src\\components\\gpHabilities\\gpHabilities.js",
+              "RelativeToolTip": "src\\components\\gpHabilities\\gpHabilities.js",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAowE0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-25T19:32:42.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\GithubProjects\\myWebsite\\package.json",
+              "RelativeDocumentMoniker": "package.json",
+              "ToolTip": "C:\\Users\\Matheus\\Documents\\GithubProjects\\myWebsite\\package.json",
+              "RelativeToolTip": "package.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-25T18:51:58.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\GithubProjects\\myWebsite\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\Matheus\\Documents\\GithubProjects\\myWebsite\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-25T18:51:47.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "App.js",
-              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\Github Projects\\myWebsite\\src\\pages\\App.js",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\GithubProjects\\myWebsite\\src\\pages\\App.js",
               "RelativeDocumentMoniker": "src\\pages\\App.js",
-              "ToolTip": "C:\\Users\\Matheus\\Documents\\Github Projects\\myWebsite\\src\\pages\\App.js*",
-              "RelativeToolTip": "src\\pages\\App.js*",
+              "ToolTip": "C:\\Users\\Matheus\\Documents\\GithubProjects\\myWebsite\\src\\pages\\App.js",
+              "RelativeToolTip": "src\\pages\\App.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-10-25T18:08:03.375Z",
@@ -35,15 +154,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "App.css",
-              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\Github Projects\\myWebsite\\src\\pages\\App.css",
+              "DocumentMoniker": "C:\\Users\\Matheus\\Documents\\GithubProjects\\myWebsite\\src\\pages\\App.css",
               "RelativeDocumentMoniker": "src\\pages\\App.css",
-              "ToolTip": "C:\\Users\\Matheus\\Documents\\Github Projects\\myWebsite\\src\\pages\\App.css",
+              "ToolTip": "C:\\Users\\Matheus\\Documents\\GithubProjects\\myWebsite\\src\\pages\\App.css",
               "RelativeToolTip": "src\\pages\\App.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-25T18:08:00.644Z"
+              "WhenOpened": "2024-10-25T18:08:00.644Z",
+              "EditorCaption": ""
             }
           ]
         }
