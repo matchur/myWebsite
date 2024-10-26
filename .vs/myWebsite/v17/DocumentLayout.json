@@ -58,8 +58,7 @@
               "RelativeToolTip": "package-lock.json",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-25T21:46:23.174Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T21:46:23.174Z"
             },
             {
               "$type": "Document",
@@ -71,8 +70,7 @@
               "RelativeToolTip": "src\\components\\cpDevText\\cpDevText.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-10-25T19:33:21.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T19:33:21.399Z"
             },
             {
               "$type": "Document",
@@ -84,8 +82,7 @@
               "RelativeToolTip": "src\\components\\cpDevText\\cpDevText.css",
               "ViewState": "AgIAABUAAAAAAAAAAAAgwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-25T19:34:03.798Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T19:34:03.798Z"
             },
             {
               "$type": "Document",
@@ -97,8 +94,7 @@
               "RelativeToolTip": "src\\components\\gpHabilities\\gpHabilities.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-25T19:32:41.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T19:32:41.786Z"
             },
             {
               "$type": "Document",
@@ -110,8 +106,7 @@
               "RelativeToolTip": "src\\components\\gpHabilities\\gpHabilities.js",
               "ViewState": "AgIAAEUAAAAAAAAAAAAowE0AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-10-25T19:32:42.449Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T19:32:42.449Z"
             },
             {
               "$type": "Document",
@@ -121,7 +116,7 @@
               "RelativeDocumentMoniker": "package.json",
               "ToolTip": "C:\\Users\\Matheus\\Documents\\GithubProjects\\myWebsite\\package.json",
               "RelativeToolTip": "package.json",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-10-25T18:51:58.74Z",
               "EditorCaption": ""
@@ -136,8 +131,7 @@
               "RelativeToolTip": ".gitignore",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-25T18:51:47.213Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T18:51:47.213Z"
             },
             {
               "$type": "Document",
@@ -149,8 +143,7 @@
               "RelativeToolTip": "src\\pages\\App.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-10-25T18:08:03.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T18:08:03.375Z"
             },
             {
               "$type": "Document",
@@ -162,8 +155,7 @@
               "RelativeToolTip": "src\\pages\\App.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-25T18:08:00.644Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T18:08:00.644Z"
             }
           ]
         }

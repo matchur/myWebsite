@@ -1,4 +1,4 @@
-.spliter {
+.Spliter {
     margin-top: 50px;
     margin-bottom: 50px;
     width: 100%;
@@ -6,8 +6,13 @@
     background: linear-gradient(to right, #5a5a5a, #F2EFE5,#F2EFE5, #5a5a5a);
     border: none;
 }
+
+    .Spliter.dark-theme {
+        background: linear-gradient(to right, #5a5a5a, #2b2b2b,#2b2b2b, #5a5a5a);
+    }
+
 @media screen and (max-width: 768px) {
-    .spliter {
+    .Spliter {
         margin-top: 100px;
     }
 }

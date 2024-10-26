@@ -1,7 +1,8 @@
 {
   "name": "mywebsite",
   "version": "0.1.0",
-  "homepage": "www.matchur.com.br",
+  
+  
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -45,7 +46,6 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "gh-pages": "^6.1.1"
   }
 }

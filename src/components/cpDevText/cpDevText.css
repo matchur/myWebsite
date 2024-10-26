@@ -39,7 +39,7 @@
   background:#4ec7f3;
 }
     #flip div:last-child div {
-        background: linear-gradient(135deg, #00FFFF, #FF00FF); /* Gradiente entre ciano e rosa */
+        background: linear-gradient(135deg, #d9db19, #2a1ce1); /* Gradiente */
     }
 
 
@@ -48,12 +48,12 @@
   5% {margin-top:0px;}
   20% { margin-top: -80px; }
   30% {margin-top:-80px;}
-  45% {margin-top:-170px;}
-  55% {margin-top:-170px;}
-  70% {margin-top:-250px;}
-  80% {margin-top:-250px;}
-  85% {margin-top:-310px;}
-  85.01% { margin-top: 60px;  }
+  45% {margin-top:-165px;}
+  55% {margin-top:-165px;}
+  70% {margin-top:-255px;}
+  80% {margin-top:-255px;}
+  85% {margin-top:-290px;}
+  85.01% { margin-top: 30px;  }
   95% { margin-top: 0px; }
    
 }

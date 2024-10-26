@@ -5,7 +5,7 @@ const CpSpliter = () => {
     
 
   return (    
-            <div className="spliter">
+            <div className="Spliter">
             </div>
   );
 }
