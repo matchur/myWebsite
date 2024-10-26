@@ -164,6 +164,10 @@
     color: rgb(0, 0, 0);
   }
 
+.Text-projetos.dark-theme{
+    color: #ffffff;
+}
+
   @media screen and (max-width: 768px) {
 
 

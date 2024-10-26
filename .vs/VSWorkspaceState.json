@@ -4,8 +4,11 @@
     "\\public",
     "\\src",
     "\\src\\components",
+    "\\src\\components\\cpDevText",
+    "\\src\\components\\gpHabilities",
     "\\src\\pages",
     "\\src\\tests"
   ],
+  "SelectedNode": "\\package.json",
   "PreviewInSolutionExplorer": false
 }

@@ -16,8 +16,7 @@ function App()
                        
       <GpHeader />
       </header>
-      <body>
-          
+      <body>     
           <GpAboutMe />
             <CpSpliter />
             <GpHabilities />
