@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.94807d66.css",
-    "main.js": "/static/js/main.ff0ef584.js",
+    "main.css": "/static/css/main.a4aeac6b.css",
+    "main.js": "/static/js/main.1c4cf0e7.js",
     "static/js/453.f69bbbff.chunk.js": "/static/js/453.f69bbbff.chunk.js",
     "static/media/nasaSpaceApps.jpg": "/static/media/nasaSpaceApps.05f5af793b7f7d957199.jpg",
     "static/media/personal1.png": "/static/media/personal1.da0a9bcd051bf7e6dcdc.png",
@@ -12,12 +12,12 @@
     "static/media/postgreLogo.png": "/static/media/postgreLogo.155da835c78eb125c678.png",
     "static/media/dockerLogo.png": "/static/media/dockerLogo.498c1fd6d1847640d202.png",
     "index.html": "/index.html",
-    "main.94807d66.css.map": "/static/css/main.94807d66.css.map",
-    "main.ff0ef584.js.map": "/static/js/main.ff0ef584.js.map",
+    "main.a4aeac6b.css.map": "/static/css/main.a4aeac6b.css.map",
+    "main.1c4cf0e7.js.map": "/static/js/main.1c4cf0e7.js.map",
     "453.f69bbbff.chunk.js.map": "/static/js/453.f69bbbff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.94807d66.css",
-    "static/js/main.ff0ef584.js"
+    "static/css/main.a4aeac6b.css",
+    "static/js/main.1c4cf0e7.js"
   ]
 }
