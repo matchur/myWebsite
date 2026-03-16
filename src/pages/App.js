@@ -1,35 +1,44 @@
-import './App.css';
-import GpHeader from '../components/gpHeader/gpHeader'
-import GpAboutMe from '../components/gpAboutMe/gpAboutMe'
-import GpHabilities from '../components/gpHabilities/gpHabilities';
-import CpSpliter from '../components/cpSpliter/cpSpliter';
-import GpFooter from '../components/gpFooter/gpFooter';
-import GpProjects from '../components/gpProjects/gpProjects';
-import GpContact from '../components/gpContact/gpContact';
+import React, { useMemo } from 'react';
+import Windows95Layout from '../layouts/Windows95Layout';
+import { useWindowsManager } from '../hooks/useWindowsManager';
+import AboutWindow from '../sections/AboutWindow';
+import ProjectsWindow from '../sections/ProjectsWindow';
+import SkillsWindow from '../sections/SkillsWindow';
+import ContactWindow from '../sections/ContactWindow';
+import '../styles/windows95.css';
 
-function App() 
-{
-  
+function App() {
+  const {
+    windows,
+    orderedWindows,
+    openWindow,
+    closeWindow,
+    minimizeWindow,
+    focusWindow,
+    toggleFromTaskbar,
+  } = useWindowsManager();
+
+  const sectionsById = useMemo(
+    () => ({
+      about: <AboutWindow />,
+      projects: <ProjectsWindow />,
+      skills: <SkillsWindow />,
+      contact: <ContactWindow />,
+    }),
+    [],
+  );
+
   return (
-    <div className= "App-backGround">
-      <header className="App-header">
-                       
-      <GpHeader />
-      </header>
-      <body>     
-          <GpAboutMe />
-            <CpSpliter />
-            <GpHabilities />
-            <CpSpliter />
-            <GpProjects />
-            <CpSpliter />
-            <GpContact />
-      </body>      
-      <footer>
-        <GpFooter />
-      </footer>
-   </div>
-   
+    <Windows95Layout
+      windows={windows}
+      orderedWindows={orderedWindows}
+      onOpenWindow={openWindow}
+      onFocusWindow={focusWindow}
+      onCloseWindow={closeWindow}
+      onMinimizeWindow={minimizeWindow}
+      onToggleWindow={toggleFromTaskbar}
+      sectionsById={sectionsById}
+    />
   );
 }
 

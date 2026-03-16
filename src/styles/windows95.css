@@ -1,0 +1,178 @@
+:root {
+  --w95-bg: #008080;
+  --w95-surface: #c0c0c0;
+  --w95-border-light: #ffffff;
+  --w95-border-dark: #808080;
+  --w95-border-darker: #000000;
+  --w95-title: #000080;
+}
+
+.desktop95 {
+  min-height: 100vh;
+  background: var(--w95-bg);
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  grid-template-rows: 1fr auto;
+}
+
+.desktop95__icons {
+  padding: 12px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.desktop-icon {
+  border: none;
+  background: transparent;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.desktop95__workspace {
+  position: relative;
+  padding: 12px;
+}
+
+.window95 {
+  position: absolute;
+  width: min(760px, calc(100% - 30px));
+  max-height: 72vh;
+  overflow: auto;
+  background: var(--w95-surface);
+  border-top: 2px solid var(--w95-border-light);
+  border-left: 2px solid var(--w95-border-light);
+  border-right: 2px solid var(--w95-border-darker);
+  border-bottom: 2px solid var(--w95-border-darker);
+}
+
+.window95:nth-child(1) { top: 18px; left: 12px; }
+.window95:nth-child(2) { top: 58px; left: 52px; }
+.window95:nth-child(3) { top: 98px; left: 92px; }
+.window95:nth-child(4) { top: 138px; left: 132px; }
+
+.window95__titlebar {
+  background: var(--w95-title);
+  color: white;
+  padding: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.window95__actions {
+  display: flex;
+  gap: 4px;
+}
+
+.win-button {
+  border-top: 2px solid var(--w95-border-light);
+  border-left: 2px solid var(--w95-border-light);
+  border-right: 2px solid var(--w95-border-dark);
+  border-bottom: 2px solid var(--w95-border-dark);
+  background: var(--w95-surface);
+  min-width: 28px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.win-button.is-active {
+  border-top: 2px solid var(--w95-border-dark);
+  border-left: 2px solid var(--w95-border-dark);
+  border-right: 2px solid var(--w95-border-light);
+  border-bottom: 2px solid var(--w95-border-light);
+}
+
+.window95__content {
+  padding: 12px;
+}
+
+.window-section h2,
+.window-section h3 {
+  margin: 0 0 8px;
+}
+
+.window-section ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.chip {
+  border: 1px solid #000;
+  background: #ececec;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.chip.is-active {
+  background: #000080;
+  color: #fff;
+}
+
+.project-list,
+.skills-grid {
+  display: grid;
+  gap: 10px;
+}
+
+.project-card,
+.skill-card {
+  border: 1px solid #888;
+  background: #efefef;
+  padding: 10px;
+}
+
+.taskbar95 {
+  grid-column: 1 / -1;
+  background: var(--w95-surface);
+  border-top: 2px solid var(--w95-border-light);
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 6px;
+}
+
+.taskbar95__buttons {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+}
+
+.taskbar95__clock {
+  border-top: 2px solid var(--w95-border-dark);
+  border-left: 2px solid var(--w95-border-dark);
+  border-right: 2px solid var(--w95-border-light);
+  border-bottom: 2px solid var(--w95-border-light);
+  padding: 4px 8px;
+  white-space: nowrap;
+}
+
+@media (max-width: 900px) {
+  .desktop95 {
+    grid-template-columns: 1fr;
+  }
+
+  .desktop95__icons {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .window95 {
+    position: static;
+    width: 100%;
+    max-height: none;
+    margin-bottom: 10px;
+  }
+}
