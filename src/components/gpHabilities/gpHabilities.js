@@ -117,6 +117,9 @@ const GpHabilities = () => {
             <a className="a_insider" href="https://www.python.org/">
                 <CpProgramLang img='https://img.shields.io/badge/Python-3776AB?style=plastic&logo=python&logoColor=white' alt="Python"/> 
             </a>
+            <a className="a_insider" href="https://www.uniface.com/">
+                <CpProgramLang img='https://img.shields.io/badge/Uniface-2F74C0?style=plastic&logo=uniface&logoColor=white' alt="Uniface"/> 
+            </a>
             <a className="a_insider" href="https://developer.mozilla.org/en-US/docs/Web/HTML">
                 <CpProgramLang img='https://img.shields.io/badge/HTML-239120?style=plastic&logo=html5&logoColor=white' alt="HTML"/> 
             </a>

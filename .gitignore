@@ -21,3 +21,11 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.vs/VSWorkspaceState.json
+.vs/VSWorkspaceState.json
+.vs/myWebsite/v17/DocumentLayout.json
+.vs/myWebsite/v17/DocumentLayout.backup.json
+.vs/myWebsite/v17/.wsuo
+.vs/myWebsite/FileContentIndex/f1f1aed0-e8d8-42b1-a384-d2782186d194.vsidx
+/.vs/myWebsite/FileContentIndex
+/.vs/myWebsite/v17

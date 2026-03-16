@@ -34,7 +34,7 @@ function GpAboutMe() {
                 <div className='Title-aboutme'>Seja Bem-Vindo</div>         
                 <div className='Subtitle-aboutme'>&#123;M&#125;</div>   
               </div>
-                  <div className='Text-aboutme1'> Olá, me chamo <b>Matheus V. Costa</b>, sou <t id='element'></t>, e você está no meu <i>website</i>. Se busca um profissional para a sua equipe ou tem uma proposta de projeto, entre em contato!</div>
+                  <div className='Text-aboutme1'> Olá, me chamo <b>Matheus V. Costa</b>, sou <t id='element'></t>, e você está no meu <i>website</i>.</div>
                 <PhotoViewer /> 
             </div>
 
