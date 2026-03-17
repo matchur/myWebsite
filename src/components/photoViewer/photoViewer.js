@@ -1,35 +1,23 @@
 import React from 'react';
 import './photoViewer.css';
 
-
-
 function PhotoViewer() {
-
   return (
-    <div className='Photo-viewer'>
-    <div class="card-swiper">
-        <div class="card-groups">
-            <div class="card-group" data-index="0" data-status="active">
-            <div class="little-card card">
-            </div>
-            <div class="big-card card">
-            </div>
-            <div class="little-card card">
-            </div>
-            <div class="big-card card">
-            </div>
-            <div class="little-card card">
-            </div>
-            <div class="big-card card">
-            </div>
-            <div class="little-card card">
-            </div>
-            <div class="big-card card">
-            </div>
-            </div>
+    <div className="Photo-viewer">
+      <div className="card-swiper">
+        <div className="card-groups">
+          <div className="card-group" data-index="0" data-status="active">
+            <div className="little-card card" />
+            <div className="big-card card" />
+            <div className="little-card card" />
+            <div className="big-card card" />
+            <div className="little-card card" />
+            <div className="big-card card" />
+            <div className="little-card card" />
+            <div className="big-card card" />
+          </div>
         </div>
-        </div>
-
+      </div>
     </div>
   );
 }
