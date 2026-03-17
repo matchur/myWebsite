@@ -5,9 +5,9 @@ function AboutWindow() {
   return (
     <div className="window-section">
       <h2>Olá, me chamo Matheus V. Costa</h2>
+      <img src='imgs\foto1.png'></img>
       <p>
-        Sou desenvolvedor full stack e esta versão do portfólio foi reorganizada para uma arquitetura
-        mais previsível, separando interface, estado e dados.
+        Bem vindo ao meu site.
       </p>
       <h3>Redes</h3>
       <ul>

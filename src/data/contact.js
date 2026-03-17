@@ -5,7 +5,7 @@ export const socialLinks = [
 ];
 
 export const contactLinks = [
-  { label: 'Telefone', value: '(18) 98202-8260', href: 'https://api.whatsapp.com/send?phone=5518982028260' },
+  { label: 'Whatsapp', value: 'Link', href: 'https://api.whatsapp.com/send?phone=5518982028260' },
   { label: 'E-mail', value: 'ma.usv@hotmail.com', href: 'mailto:ma.usv@hotmail.com' },
   ...socialLinks,
 ];
