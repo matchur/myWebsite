@@ -6,7 +6,6 @@ export const projects = [
       'Desenvolvedor Júnior contribuindo no desenvolvimento de plataformas internas com foco em qualidade e aprendizado contínuo.',
     technologies: ['React', 'Docker', 'Next.js', 'MySQL', 'JavaScript', 'Postman', 'GitLab'],
     externalLinks: [{ externalName: 'Site', externalLink: 'https://www.agroflux.com.br/' }],
-    images: [],
     category: 'Experiências',
   },
   {
@@ -16,7 +15,6 @@ export const projects = [
       'Sistema desktop para gestão de clientes, ativos, contratos, locações e relatórios, com treinamento e documentação.',
     technologies: ['Java', 'JasperReports', 'PostgreSQL', 'JavaFX'],
     externalLinks: [{ externalName: 'Instagram', externalLink: 'https://www.instagram.com/atelierdasfestas_carol/' }],
-    images: [{ name: 'Carrinho em competição', file: '/imgs/carrinhoSL.jpg' }],
     category: 'Projetos',
   },
   {
@@ -29,7 +27,6 @@ export const projects = [
       { externalName: 'GitHub', externalLink: 'https://github.com/Hauagge/DoeJa' },
       { externalName: 'Site', externalLink: 'https://doeja.app/' },
     ],
-    images: [{ name: 'Evento e ideação', file: '/imgs/nasaSpaceApps.jpg' }],
     category: 'Projetos',
   },
   {
@@ -38,10 +35,6 @@ export const projects = [
     description: 'Portfólio pessoal em React hospedado no GitHub Pages.',
     technologies: ['React', 'HTML', 'CSS', 'GitHub Pages'],
     externalLinks: [{ externalName: 'GitHub', externalLink: 'https://github.com/matchur/myWebsite' }],
-    images: [
-      { name: 'Tela inicial', file: '/imgs/personal1.png' },
-      { name: 'Seção principal', file: '/imgs/2024Att.png' },
-    ],
     category: 'Projetos',
   },
 ];
