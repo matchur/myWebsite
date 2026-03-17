@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import './gpProjects.css';
 import { TiChevronLeftOutline, TiChevronRightOutline } from 'react-icons/ti';
 import ImgVisualizer from '../imgVisualizer/imgVisualizer'
@@ -8,6 +8,7 @@ import ImgVisualizer from '../imgVisualizer/imgVisualizer'
 const GpProjects = () => {
   const MAX_VISIBILITY = 3;
   const [activeProjectIndex, setActiveProjectIndex] = useState(0);
+  const projectsSectionRef = useRef(null);
 
   // Array de objetos contendo informações dos projetos
 const projects = [
@@ -101,11 +102,8 @@ const projects = [
   const categories = [...new Set(projects.map(project => project.category))];
 
   const handleButtonClick = (index) => {
-    window.scrollTo({
-      top: 1820,
-      behavior: 'smooth',
-    });
     setActiveProjectIndex(index);
+    projectsSectionRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   };
 
   const Letter = ({ project }) => (
@@ -130,8 +128,7 @@ const projects = [
 
     useEffect(() => {
       setActive(activeProjectIndex);
-      
-    }, []);
+    }, [activeProjectIndex]);
 
     return (
       <div className='carousel'>
@@ -155,7 +152,7 @@ const projects = [
   };
 
   return (
-    <div className='Group-componente'>
+    <div className='Group-componente' ref={projectsSectionRef}>
       <h1 className='Text-projetos'>Portfólio</h1>
       <div className='componente'>
         <Carousel>
