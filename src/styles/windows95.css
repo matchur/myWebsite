@@ -176,3 +176,52 @@
     margin-bottom: 10px;
   }
 }
+
+.open-images95 {
+  margin-top: 8px;
+  border: 1px solid #000;
+  background: #e6e6e6;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.file-list95 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 6px;
+}
+
+.file-item95 {
+  width: 100%;
+  text-align: left;
+  border: 1px solid #7c7c7c;
+  background: #efefef;
+  padding: 6px 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.file-item95:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.file-item95__icon {
+  font-size: 18px;
+}
+
+.image-viewer95 {
+  display: grid;
+  gap: 8px;
+}
+
+.image-viewer95__img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #888;
+  background: #fff;
+}

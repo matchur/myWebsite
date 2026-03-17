@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from 'react';
 import { projects } from '../data/projects';
 
-function ProjectsWindow() {
+function ProjectsWindow({ onOpenImages }) {
   const [activeCategory, setActiveCategory] = useState('Todas');
 
   const categories = useMemo(
@@ -49,6 +49,16 @@ function ProjectsWindow() {
                   </li>
                 ))}
               </ul>
+            ) : null}
+
+            {project.images?.length ? (
+              <button
+                type="button"
+                className="open-images95"
+                onClick={() => onOpenImages(project.id)}
+              >
+                Abrir imagens
+              </button>
             ) : null}
           </article>
         ))}

@@ -3,11 +3,21 @@ import DesktopIcon from '../components/windows/DesktopIcon';
 import Taskbar from '../components/windows/Taskbar';
 import Window from '../components/windows/Window';
 
-function Windows95Layout({ windows, orderedWindows, onOpenWindow, onFocusWindow, onCloseWindow, onMinimizeWindow, onToggleWindow, sectionsById }) {
+function Windows95Layout({
+  windows,
+  desktopWindows,
+  orderedWindows,
+  onOpenWindow,
+  onFocusWindow,
+  onCloseWindow,
+  onMinimizeWindow,
+  onToggleWindow,
+  renderWindowContent,
+}) {
   return (
     <div className="desktop95">
       <aside className="desktop95__icons">
-        {Object.values(windows).map((windowItem) => (
+        {desktopWindows.map((windowItem) => (
           <DesktopIcon key={windowItem.id} label={windowItem.title} onOpen={() => onOpenWindow(windowItem.id)} />
         ))}
       </aside>
@@ -25,7 +35,7 @@ function Windows95Layout({ windows, orderedWindows, onOpenWindow, onFocusWindow,
               onClose={() => onCloseWindow(windowItem.id)}
               onMinimize={() => onMinimizeWindow(windowItem.id)}
             >
-              {sectionsById[windowItem.id]}
+              {renderWindowContent(windowItem)}
             </Window>
           ))}
       </main>
